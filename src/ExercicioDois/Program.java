@@ -35,6 +35,7 @@ public class Program {
 				line = br.readLine();
 			}	
 			System.out.println("Total users: " + set.size());
+			set.stream().forEach(System.out::println);
 			
 		} catch (IOException e) {
 			System.out.println("Error: " + e.getMessage());
