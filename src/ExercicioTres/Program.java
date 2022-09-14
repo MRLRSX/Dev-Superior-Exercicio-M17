@@ -39,7 +39,7 @@ public class Program {
 		total.addAll(c);
 
 		System.out.println("Total students: " + total.size());
-
+        
 		entrada.close();
 	}
 }

@@ -3,7 +3,7 @@ package ExercicioDois;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.time.Instant;
+
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.HashSet;
@@ -37,9 +37,11 @@ public class Program {
 			System.out.println("Total users: " + set.size());
 			set.stream().forEach(System.out::println);
 			
+			
 		} catch (IOException e) {
 			System.out.println("Error: " + e.getMessage());
 		}
+		
 		entrada.close();
 	}
 }
